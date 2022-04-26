@@ -1,0 +1,99 @@
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+* {margin:0;padding:0;border:0 none; position: relative;}
+html {
+  background-color: #fbfbe3;
+  background: url(/img/paper.jpg) repeat;
+  height: 100vh;
+  box-sizing: border-box; 
+}
+@font-face {
+  font-family: Bakudai-Regular;
+  src: url(../font/Bakudai-Regular.woff2)
+}
+@font-face {
+  font-family: Bakudai-Regula;
+  src: url(../font/Bakudai-Regular.woff2)
+}
+pre{
+  font-family: "Bakudai-Regular","PingFang","Microsoft JhengHei",Arial,Microsoft JhengHei , PMingLiU , MingLiU , sans-serif;
+  opacity: 10%;
+}
+body{
+  font-family: "Bakudai-Regular","PingFang","Microsoft JhengHei",Arial,Microsoft JhengHei , PMingLiU , MingLiU , sans-serif;
+  background-color: #fbfbe3;
+  /*background: url(/img/paper.jpg) repeat;*/
+  overflow-x: hidden;
+}
+article { 
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top:0; left:0;
+  overflow: hidden;
+  /*animation: blur 11s infinite;*/
+}
+
+pre {
+  color: #bc7d3f;
+  /*text-shadow: 0 0 2px #bc7d3f, 1px -1px 2px #bc7d3f;*/
+  font-weight: 400;
+  font-size: 8rem;
+  text-decoration: none;
+  letter-spacing: .3rem;
+  word-spacing: 1rem;
+  padding: 1rem 0;
+  writing-mode: vertical-rl;
+  -webkit-text-orientation: upright;
+  -moz-text-orientation: upright;
+ text-orientation: upright;
+  transform: translatey(-100%);
+  animation: textRain linear 30s infinite;
+}
+@keyframes textRain {
+  100% {
+    transform: translatey(100%);
+  }
+}
+pre:nth-child(5n+1) {
+  animation-delay: 1s;
+  animation-duration: 13s;
+}
+pre:nth-child(5n+2) {
+  animation-delay: 1.33s;
+  animation-duration: 53s;
+}
+pre:nth-child(5n+3) {
+  animation-delay: -1s;
+  animation-duration: 29s;
+}
+pre:nth-child(4n) {
+  animation-delay: -2s;
+  animation-duration: 43s;
+}
+
+.hide {
+  position: absolute;
+  height: 0; width: 0;
+  overflow: 0;
+  left: -100%;
+}
+.aviso {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #fbfbe3;
+  color: #bc7d3f;
+  font-weight: 400;
+  padding: .5rem;
+  border-radius: 0 5px 0 0;
+  box-shadow: 0 0 4px rgba(0,0,0,.4);
+  z-index: 1;
+}
+.aviso a {
+  text-decoration: none;
+  color: #bc7d3f;
+}
