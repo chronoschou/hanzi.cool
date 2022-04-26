@@ -426,7 +426,7 @@ nav li a:hover:nth-last-child(7) {
 }
 
 .hanziLogo {
-    background: center center no-repeat url(../img/hanzi_mainlogo.png);
+    background: center center no-repeat url(../img/hanzi_mainlogo.webp);
     background-size: contain;
     width: 100%;
     height: 380px;
