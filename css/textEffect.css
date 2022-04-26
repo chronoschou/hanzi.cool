@@ -4,13 +4,13 @@
 * {margin:0;padding:0;border:0 none; position: relative;}
 html {
   background-color: #fbfbe3;
-  background: url(../img/paper.jpg) repeat;
+  background: url(/img/paper.jpg) repeat;
   height: 100vh;
   box-sizing: border-box; 
 }
 @font-face {
   font-family: Bakudai-Regular;
-  src: url(../font/Bakudai-Regular.woff2)
+  src: url(/font/Bakudai-Regular.woff2)
 }
 pre{
   font-family: "Bakudai-Regular","PingFang","Microsoft JhengHei",Arial,Microsoft JhengHei , PMingLiU , MingLiU , sans-serif;
