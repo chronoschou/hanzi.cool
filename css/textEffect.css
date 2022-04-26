@@ -4,7 +4,7 @@
 * {margin:0;padding:0;border:0 none; position: relative;}
 html {
   background-color: #fbfbe3;
-  background: url(/img/paper.jpg) repeat;
+  background: url(/main/img/paper.jpg) repeat;
   height: 100vh;
   box-sizing: border-box; 
 }
