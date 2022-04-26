@@ -12,10 +12,6 @@ html {
   font-family: Bakudai-Regular;
   src: url(../font/Bakudai-Regular.woff2)
 }
-@font-face {
-  font-family: Bakudai-Regula;
-  src: url(../font/Bakudai-Regular.woff2)
-}
 pre{
   font-family: "Bakudai-Regular","PingFang","Microsoft JhengHei",Arial,Microsoft JhengHei , PMingLiU , MingLiU , sans-serif;
   opacity: 10%;
