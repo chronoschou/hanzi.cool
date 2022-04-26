@@ -261,7 +261,7 @@ iframe {
     overflow: hidden;
     z-index: -1;
     background-color: #fbfbe3!important;
-    background: url(/img/paper.jpg) repeat!important;
+    /* background: url(/img/paper.jpg) repeat!important; */
 }
 
 section {
