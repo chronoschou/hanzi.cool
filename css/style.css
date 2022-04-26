@@ -260,8 +260,8 @@ iframe {
     height: 100vh;
     overflow: hidden;
     z-index: -1;
-    background-color: #fbfbe3;
-    background: url(/img/paper.jpg) repeat;
+    background-color: #fbfbe3!important;
+    background: url(/img/paper.jpg) repeat!important;
 }
 
 section {
