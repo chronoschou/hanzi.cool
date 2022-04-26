@@ -84,7 +84,7 @@ p {
 
 .scroll-background {
     background-color: #fff !important;
-    background: url(/img/paper.jpg) repeat;
+    background: url(../img/paper.jpg) repeat;
     box-shadow: 1px 2px 5px #bead9c;
     -webkit-animation-name: fadeInDown;
     animation-name: fadeInDown;
@@ -260,8 +260,8 @@ iframe {
     height: 100vh;
     overflow: hidden;
     z-index: -1;
-    background-color: #fbfbe3!important;
-    background: url(../img/paper.jpg) repeat!important;
+    /* background-color: #fbfbe3!important;
+    background: url(../img/paper.jpg) repeat!important; */
 }
 
 section {
