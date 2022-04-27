@@ -9,11 +9,6 @@
     src: url(../font/Bakudai-Regular.woff2)
 }
 
-a {
-    text-decoration: none;
-    font-style: normal;
-}
-
 ul li {
     list-style: none;
 }
@@ -28,9 +23,26 @@ body {
     background-color: #fbfbe3;
     overflow-x: hidden;
 }
+body a {
+    text-decoration: none;
+    font-style: normal;
+    color:#97825b;
+}
+
+body a:hover {
+    color:#bead9c;
+}
 
 body .btn-link:hover {
     color: #fbfbe3 !important;
+}
+body .card-body{
+    background-color: #fff !important;
+    background: url(../img/paper.jpg) repeat;
+    color:#684625;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 p {
@@ -854,7 +866,7 @@ nav li a:hover:nth-last-child(7) {
 
 @media (max-width: 767.98px) {
     .unitBanner p {
-        font-size: .7rem;
+        font-size: .8rem;
         left: 0px;
     }
         .roadmap p {
@@ -879,11 +891,11 @@ nav li a:hover:nth-last-child(7) {
     top: 280px;
     width: 20%;
     height: 300px;
-    font-size: .9rem;
+    font-size: 1.1rem;
     line-height: 2rem;
-    letter-spacing: .3rem;
+    /* letter-spacing: .3rem; */
     display: block;
-    color: #ccc;
+    color: #ddd;
 }
 
 .unitTbox h5 {
